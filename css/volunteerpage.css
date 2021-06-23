@@ -1,0 +1,109 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: #8733A3;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 15%; 
+    padding-bottom: 5%;
+    padding-right: 15%;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.header {
+
+    width: 75%;
+    padding: 0%;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 180%;
+    margin-right: auto;
+    color: #6A2880; 
+    font-size: 26px;
+}
+
+.donateButton {
+    width: 150px;
+    height: 50px;
+    background-color: #8733A3;
+    color: white;
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+.bodyVolunteer {
+    display: inline-block; 
+}
+
+.headerVolunteer {
+    display: inline-block;
+    width: 1450px;
+    background-color: #FFF6E8;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.shelterVolunteer {
+    width: 275px;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.tnrVolunteer {
+    width: 275px;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.button {
+    width: 200px;
+    height: 48px;
+    background-color: #8733A3;
+    color: white;
+    border-radius: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    box-shadow: 5px 8px #FFC839;
+}
+
+.footer {
+    display: flex;
+    background-color: #4A1C59;
+    color: white
+
+}
+.footer ul, li {
+    padding: 1%
+}

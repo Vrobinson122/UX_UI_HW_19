@@ -1,0 +1,173 @@
+body, p {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 25%;
+    padding: 0%;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.navigation {
+    display: flex;
+    width: 75%;
+    padding: 0%;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 180%;
+    margin-right: auto;
+    color: #6A2880; 
+    font-size: 26px;
+}
+
+.donateButton {
+    width: 150px;
+    height: 50px;
+    background-color: #8733A3;
+    color: white;
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+}
+
+.heroImg {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.cards {
+    display: flex;
+}
+
+.adopt {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-right-color: #FFC839;
+}
+
+.donate {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.foster {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.volunteer {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    background-color: #4A1C59;
+    text-align: center;
+}
+
+.mission h1 {
+    color: #FFC839
+}
+
+.mission p {
+    color: white;
+    justify-content: space-evenly;
+}
+
+.featuredPets {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFC839;
+    text-align: center;
+    color: #4A1C59;
+}
+
+.featuredPetsCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 200px;
+    height: 48px;
+    background-color: #8733A3;
+    color: white;
+    border-radius: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    box-shadow: 5px 8px #FFC839;
+}
+
+.ending {
+    background-color: #4A1C59;
+    color: white
+
+}
+.ending ul, li {
+    padding: 1%
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader img {
+    animation: pulse 6s ease;
+    width: 200px;
+    align-items: center;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1.5);
+    }
+    25% {
+      transform: scale(2);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    75% {
+        transform: scale(2);
+      }
+    100% {
+        transform: scale(1.5);
+      }
+  }
